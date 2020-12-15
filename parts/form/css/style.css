@@ -10,3 +10,16 @@ form {
   border: 1px solid black;
   border-radius: 5px;
 }
+
+form select {
+  border: 1px solid black;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+form button {
+  border: 1px solid black;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-left: 0px;
+}
