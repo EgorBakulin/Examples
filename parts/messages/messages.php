@@ -1,17 +1,5 @@
-<div class="messages_container">
-  <div class="message_to">
-    <img src="" alt="">
-    <div>
-      <div></div>
-      <div></div>
-    </div>
-  </div>
-  <div class="message_from">
-    <img src="" alt="">
-    <div>
-      <div></div>
-      <div></div>
-    </div>
-  </div>
-  </div>
-</div>
+<?php
+$person1_image = $part_dir . 'img/person 1.jpg';
+$person2_image = $part_dir . 'img/person 2.jpg';
+
+include('viev.php');
