@@ -1,0 +1,47 @@
+.messages_container {
+ margin-left: auto;
+ margin-right: auto;
+ width: 80%;
+}
+
+.message {
+  display: block;
+  margin-bottom: 3px;
+}
+.message .child {
+  display: inline-block;
+}
+
+.message_from {
+  margin-left: auto;
+  margin-right: 30px;
+  float: right;
+}
+
+.message_to {
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+.message_box {
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 4px
+}
+
+.message_from .message_box {
+  border-bottom-right-radius: 0px;
+}
+
+.message_to .message_box {
+  border-bottom-left-radius: 0px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.message_autor{
+  font-size: 10px
+}
